@@ -7,7 +7,7 @@ import { HardhatUserConfig } from "hardhat/config"
 import 'hardhat-contract-sizer'
 import 'hardhat-deploy'
 import "solidity-coverage";
-import "@nomicfoundation/hardhat-foundry";
+// import "@nomicfoundation/hardhat-foundry";
 dotenv.config();
 
 function getNetworkUrl(name: string): string {

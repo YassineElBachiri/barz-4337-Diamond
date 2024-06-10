@@ -142,7 +142,7 @@ contract EntryPoint is
      * Execute a batch of UserOperation with Aggregators
      * @param opsPerAggregator the operations to execute, grouped by aggregator (or address(0) for no-aggregator accounts)
      * @param beneficiary the address to receive the fees
-     */
+     */  
     function handleAggregatedOps(
         UserOpsPerAggregator[] calldata opsPerAggregator,
         address payable beneficiary
